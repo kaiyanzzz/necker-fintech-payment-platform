@@ -1,0 +1,42 @@
+# General
+*.py[cod]
+*__pycache__
+*.db
+*.sqlite3
+*.log
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Python virtual environments
+venv/
+*.venv/
+
+# FastAPI specific
+instance/
+
+
+# Node modules for Next.js
+node_modules/
+
+# Next.js build outputs
+.next/
+out/
+
+# Tailwind CSS build output
+*.css
+*.map
+
+# ESLint
+.eslintcache
+
+# Turbopack cache
+.turbo/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
